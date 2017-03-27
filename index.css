@@ -1,0 +1,43 @@
+body {
+  background: url(http://benoitpelletier.com/wp-content/uploads/2014/09/burningman-1920x1280.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+button{
+	margin-top: 200px;
+	color: #800000;
+	background-color: #FFFF00; 
+	border: solid 2px #FFFF00;
+	font-family: Impact;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+}
+
+h2{
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+
+
+
+footer {
+    padding: .005em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    opacity: 0.5;
+    font-family: Arial Narrow;
+    letter-spacing: 1px;
+    position: inherit;
+    margin-top: 400px;
+}
