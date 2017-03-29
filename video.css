@@ -16,9 +16,9 @@ body {
 p {
   font-family: fantasy;
   font-size: 16px;
-  color: black;
+  color: white;
   text-align: center;
-  background-color: white;
+  background-color: black;
 }
 button {
 	margin-top: 90px;
@@ -28,12 +28,42 @@ button {
 	font-family: Impact;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: bold;
+  cursor: pointer;
 }
 iframe {
  height: 100%;
  width: 100%;
 }
+#donate {
+  display: block;
+  float: right;
+  margin-top: 30px;
+	height: 100px;
+	width: 150px;
+	background: #87CEFA;
+	border: 2px solid rgba(33, 68, 72, 0.59);
 
+	color: rgba(0, 0, 0, 0.55);
+	text-align: center;
+	font: bold 1.8em/35px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+
+	background: -webkit-linear-gradient(top, #87CEFA, #2f5f63);
+	background: -moz-linear-gradient(top, #34696f, #2f5f63);
+	background: -o-linear-gradient(top, #34696f, #2f5f63);
+	background: -ms-linear-gradient(top, #34696f, #2f5f63);
+	background: linear-gradient(top, #34696f, #2f5f63);
+
+	-webkit-border-radius: 50px;
+	-khtml-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+
+	-webkit-box-shadow: 0 8px 0 #1b383b;
+	-moz-box-shadow: 0 8px 0 #1b383b;
+	box-shadow: 0 8px 0 #1b383b;
+
+	text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+}
 h1 {
   font-family: 'Gloria Hallelujah', cursive;
   margin-left: 150px;
@@ -41,7 +71,19 @@ h1 {
   font-size: 58px;
   text-align: left;
   font-weight: 900;
-  color: black;
+  color: white;
+  animation: slide-left 5s;
+}
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 footer {
     padding: .005em;
