@@ -5,14 +5,18 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-attachment: fixed;
+  margin: 0;
 }
 .vid {
   height: 350px;
   width: 350px;
-  float: right;
-  margin-left: 80px;
+  float: left;
+  margin-left: 10px;
   margin-top: -20px;
+  
 }
+
+
 p {
   font-family: fantasy;
   font-size: 16px;
@@ -28,12 +32,36 @@ button {
 	font-family: 'Quicksand', sans-serif;
 	font-weight: bold;
 }
+
+
+p{
+  float: left;
+  /*argin-left: 10px;*/
+  margin-top: 20px;
+  background-color: #fff;
+  opacity: .75;
+  text-align: center;
+
+}
+
+
 iframe {
  height: 100%;
  width: 100%;
 }
 
-h1 {
+h1{
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-left: 150px;
+    margin-top: 20px;
+
+}
+
+a:visited{
+  color: yellow;
+}
+
+/*h1 {
   font-family: 'Gloria Hallelujah', cursive;
   margin-left: 150px;
   margin-top: 10px;
@@ -41,7 +69,8 @@ h1 {
   text-align: left;
   font-weight: 900;
   color: white;
-}
+}*/
+
 footer {
     padding: .005em;
     color: white;
@@ -51,6 +80,7 @@ footer {
     opacity: 0.5;
     font-family: Arial Narrow;
     letter-spacing: 1px;
-    position: inherit;
-    margin-top: 400px;
+    /*position: inherit;*/
+    margin-top: 450px;
+    
 }

@@ -1,62 +1,297 @@
-
+ß
 <!DOCTYPE html>
 <html lang="en-US">
-		<head>
+	<head>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-		<title>Fixed Top Navigation Toolbar</title>
+			<title>GALLERY: Burning Man</title>
 		<meta name="author" content="Jake Rocheleau">
 		<link rel="shortcut icon" href="http://designshack.net/favicon.ico">
 		<link rel="icon" href="http://designshack.net/favicon.ico">
 		<link rel="stylesheet" type="text/css" media="all" href="styles.css">
 		<link rel="stylesheet" type="text/css" media="all" href="http://fonts.googleapis.com/css?family=Capriola">
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+			<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
-
-
+		<link rel="stylesheet" type="text/css" href="burningmangallery.css">
+		
 		<style>
-		 .sidebyside{
-		  float: left;
-		  width: 33%;
-		}
-
-		.grow img{ 
-			transform: scale(1.1); }
+			 .sidebyside{
+			  float: left;
+			  width: 33%;
+			}
 
 		</style>
 
-
-
-			<title>GALLERY: Burning Man</title>
-		</head>
+		<title>GALLERY: Burning Man</title>
+	</head>
 <body>
+
+<!-- Trigger/Open The Modal -->
+
+<div id="buttoncontainer">
+		<a href="index.html">
+			<button id="myBtn">
+				<img src="https://s-media-cache-ak0.pinimg.com/originals/df/8d/d0/df8dd0226bf4a0f236fc4f144125e1a3.png" height= "55px"alt="Burning Man" />
+				<br />
+				ABOUT
+		</button>
+		</a>
+
+			<a href="video.html">
+				<button>
+					<img src="https://s-media-cache-ak0.pinimg.com/originals/df/8d/d0/df8dd0226bf4a0f236fc4f144125e1a3.png" height= "55px", alt="Burning Man" />
+					<br />
+					VIDEO
+					</button>
+			</a>
+
+			<a href="burningmangallery.html">
+				<button>
+					<img src="https://s-media-cache-ak0.pinimg.com/originals/df/8d/d0/df8dd0226bf4a0f236fc4f144125e1a3.png" height= "55px", alt="Burning Man" />
+					<br />
+					GALLERY
+					</button>
+			</a>
+		</div>
+
+					<script>
+					// Get the modal
+					var modal = document.getElementById('myModal');
+
+					// Get the button that opens the modal
+					var btn = document.getElementById("myBtn");
+
+					// Get the <span> element that closes the modal
+					var span = document.getElementsByClassName("close")[0];
+
+					// When the user clicks the button, open the modal 
+					btn.onclick = function() {
+					    modal.style.display = "block";
+					}
+
+					// When the user clicks on <span> (x), close the modal
+					span.onclick = function() {
+					    modal.style.display = "none";
+					}
+
+					// When the user clicks anywhere outside of the modal, close it
+					window.onclick = function(event) {
+					    if (event.target == modal) {
+					        modal.style.display = "none";
+					    }
+					}
+					</script>
+
+
+
+
+
+
 
 <div style="background-color: yellow"> </div>
 <!-- gallery -->
-<img class="sidebyside grow" src="https://cdn.modlar.com/blocks/141/stacks/854/s_1920_x/temple_jdv_img_0149_w2400_h2400_57b3f569d5931.jpg">
-<img class="sidebyside" src="https://10206-presscdn-0-16-pagely.netdna-ssl.com/wp-content/uploads/2016/04/Dollarphotoclub_burningman-1920x1280.jpg">
-<img class="sidebyside" src="http://icdn-8.motor1.com/images/mgl/Y6oly/s1/burning-man-art-cars-are-big-business-for-one-new-york-resident.jpg">
-<img class="sidebyside" src="https://s-media-cache-ak0.pinimg.com/originals/47/1f/11/471f116ef22113ebce2df0001009f4bf.jpg">
-<img class="sidebyside" src="http://www.magneticmeat.com/wp-content/uploads/2016/01/burningman@hedel_20.jpg">
-<img class="sidebyside" src="http://www.scotoma.net/wp-content/gallery/burning-man-2015/BM_2015_4.JPG">
-<img class="sidebyside" src="http://journal.burningman.org/wp-content/uploads/2016/05/BM22898_Tower-of-Transformation.jpg">
-<img class="sidebyside" src="https://emilysevinphotography.files.wordpress.com/2012/09/burning-man-12-38-2.jpg">
-<img class="sidebyside" src="http://www.scotoma.net/wp-content/gallery/burning-man-2015/BM_2015_1.JPG">
-<img class="sidebyside" src="https://fsmedia.imgix.net/08/f4/08/11/b766/4b57/bc10/fe0cb7444541/fire-eaters-5420541920.jpeg">
-<img class="sidebyside" src="https://www.lusita.ch/wp-content/uploads/2016/09/Lusita-agence-de-voyages-geneve-blog-Burning-Man-3.jpg">
-<img class="sidebyside" src="https://lh3.googleusercontent.com/-OiDsfmHei08/TmrxSg-08QI/AAAAAAAKj58/G4rzHLV7KkY78tVn5ipdfvpd6_NgpHhxACJoC/w1920-h1280/The%2BBridge.jpg">
-<img class="sidebyside" src="http://strategy7studio.net/wp-content/uploads/2015/06/epod.jpg">
-<img class="sidebyside" src="http://geromeviavant.com/series/burningman/_MG_6829_Color_Web.jpg">
-<img class="sidebyside" src="http://www.whiteloopstudio.com/wp-content/uploads/2016/11/001_Blog_Burning-Man_003.jpg">
-<img class="sidebyside" src="http://peoplesbeats.net/wp-content/uploads/2015/09/El-Pulpo-Mecanico.-Duane-Flatmo-and-Jerry-Kunkel-.jpg">
-<img class="sidebyside" src="http://strategy7studio.net/wp-content/uploads/2015/06/tealostparty.jpg">
-<img class="sidebyside" src="http://ww2.kqed.org/news/wp-content/uploads/sites/10/2015/08/15299609522_300f136f8c_k-e1440116786633.jpg">
-<img class="sidebyside" src="https://www.urlaubsguru.de/wp-content/uploads/2015/07/16096707859_1eb43d1b99_o.jpg">
-<img class="sidebyside" src="http://www.iwasatburningman.com/wp-content/uploads/2014/09/04450.jpg">
-<img class="sidebyside" src="http://strategy7studio.net/wp-content/uploads/2015/06/embrace.jpg">
-<img class="sidebyside" src="https://s-media-cache-ak0.pinimg.com/originals/5a/c0/1b/5ac01bcc35002cd1c2b5d59e628fe7d3.jpg">
-<img class="sidebyside" src="http://www.yorokobu.es/wp-content/uploads/parallaxburning.jpg">
-<img class="sidebyside" src="http://cdn.ticketfly.com/i/00/02/43/25/87-og.jpg">
+	<figure>
+		<img class="sidebyside" src="https://cdn.modlar.com/blocks/141/stacks/854/s_1920_x/temple_jdv_img_0149_w2400_h2400_57b3f569d5931.jpg">
+	</figure>
 
+	<figure>
+		<img class="sidebyside" src="https://10206-presscdn-0-16-pagely.netdna-ssl.com/wp-content/uploads/2016/04/Dollarphotoclub_burningman-1920x1280.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://icdn-8.motor1.com/images/mgl/Y6oly/s1/burning-man-art-cars-are-big-business-for-one-new-york-resident.jpg">
+	</figure>
+
+
+	<figure>
+		<img class="sidebyside" src="https://s-media-cache-ak0.pinimg.com/originals/47/1f/11/471f116ef22113ebce2df0001009f4bf.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://www.magneticmeat.com/wp-content/uploads/2016/01/burningman@hedel_20.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://www.scotoma.net/wp-content/gallery/burning-man-2015/BM_2015_4.JPG">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://journal.burningman.org/wp-content/uploads/2016/05/BM22898_Tower-of-Transformation.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="https://emilysevinphotography.files.wordpress.com/2012/09/burning-man-12-38-2.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://www.scotoma.net/wp-content/gallery/burning-man-2015/BM_2015_1.JPG">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="https://fsmedia.imgix.net/08/f4/08/11/b766/4b57/bc10/fe0cb7444541/fire-eaters-5420541920.jpeg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="https://www.lusita.ch/wp-content/uploads/2016/09/Lusita-agence-de-voyages-geneve-blog-Burning-Man-3.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="https://lh3.googleusercontent.com/-OiDsfmHei08/TmrxSg-08QI/AAAAAAAKj58/G4rzHLV7KkY78tVn5ipdfvpd6_NgpHhxACJoC/w1920-h1280/The%2BBridge.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://strategy7studio.net/wp-content/uploads/2015/06/epod.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://geromeviavant.com/series/burningman/_MG_6829_Color_Web.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://www.whiteloopstudio.com/wp-content/uploads/2016/11/001_Blog_Burning-Man_003.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://peoplesbeats.net/wp-content/uploads/2015/09/El-Pulpo-Mecanico.-Duane-Flatmo-and-Jerry-Kunkel-.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://strategy7studio.net/wp-content/uploads/2015/06/tealostparty.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://ww2.kqed.org/news/wp-content/uploads/sites/10/2015/08/15299609522_300f136f8c_k-e1440116786633.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="https://www.urlaubsguru.de/wp-content/uploads/2015/07/16096707859_1eb43d1b99_o.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://www.iwasatburningman.com/wp-content/uploads/2014/09/04450.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://strategy7studio.net/wp-content/uploads/2015/06/embrace.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="https://s-media-cache-ak0.pinimg.com/originals/5a/c0/1b/5ac01bcc35002cd1c2b5d59e628fe7d3.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://www.yorokobu.es/wp-content/uploads/parallaxburning.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://cdn.ticketfly.com/i/00/02/43/25/87-og.jpg">
+	</figure>
+
+<!-- gallery -->
+	<figure>
+		<img class="sidebyside grow" src="https://cdn.modlar.com/blocks/141/stacks/854/s_1920_x/temple_jdv_img_0149_w2400_h2400_57b3f569d5931.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="https://10206-presscdn-0-16-pagely.netdna-ssl.com/wp-content/uploads/2016/04/Dollarphotoclub_burningman-1920x1280.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://icdn-8.motor1.com/images/mgl/Y6oly/s1/burning-man-art-cars-are-big-business-for-one-new-york-resident.jpg">
+	</figure>
+
+
+	<figure>
+		<img class="sidebyside" src="https://s-media-cache-ak0.pinimg.com/originals/47/1f/11/471f116ef22113ebce2df0001009f4bf.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://www.magneticmeat.com/wp-content/uploads/2016/01/burningman@hedel_20.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://www.scotoma.net/wp-content/gallery/burning-man-2015/BM_2015_4.JPG">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://journal.burningman.org/wp-content/uploads/2016/05/BM22898_Tower-of-Transformation.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="https://emilysevinphotography.files.wordpress.com/2012/09/burning-man-12-38-2.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://www.scotoma.net/wp-content/gallery/burning-man-2015/BM_2015_1.JPG">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="https://fsmedia.imgix.net/08/f4/08/11/b766/4b57/bc10/fe0cb7444541/fire-eaters-5420541920.jpeg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="https://www.lusita.ch/wp-content/uploads/2016/09/Lusita-agence-de-voyages-geneve-blog-Burning-Man-3.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="https://lh3.googleusercontent.com/-OiDsfmHei08/TmrxSg-08QI/AAAAAAAKj58/G4rzHLV7KkY78tVn5ipdfvpd6_NgpHhxACJoC/w1920-h1280/The%2BBridge.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://strategy7studio.net/wp-content/uploads/2015/06/epod.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://geromeviavant.com/series/burningman/_MG_6829_Color_Web.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://www.whiteloopstudio.com/wp-content/uploads/2016/11/001_Blog_Burning-Man_003.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://peoplesbeats.net/wp-content/uploads/2015/09/El-Pulpo-Mecanico.-Duane-Flatmo-and-Jerry-Kunkel-.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://strategy7studio.net/wp-content/uploads/2015/06/tealostparty.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://ww2.kqed.org/news/wp-content/uploads/sites/10/2015/08/15299609522_300f136f8c_k-e1440116786633.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="https://www.urlaubsguru.de/wp-content/uploads/2015/07/16096707859_1eb43d1b99_o.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://www.iwasatburningman.com/wp-content/uploads/2014/09/04450.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://strategy7studio.net/wp-content/uploads/2015/06/embrace.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="https://s-media-cache-ak0.pinimg.com/originals/5a/c0/1b/5ac01bcc35002cd1c2b5d59e628fe7d3.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://www.yorokobu.es/wp-content/uploads/parallaxburning.jpg">
+	</figure>
+
+	<figure>
+		<img class="sidebyside" src="http://cdn.ticketfly.com/i/00/02/43/25/87-og.jpg">
+	</figure>
+
+<footer>
+  <h6><a href="index.html">About</a> &nbsp|&nbsp <a href="video.html">Videos</a> &nbsp |&nbsp <a href="burningmangallery.html">Gallery</a> &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &copy; 2017</h6>
+</footer>
+
+
+	<div>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/Hh4xhBskefo?autoplay=1" frameborder="0" allowfullscreen></iframe>
+	</div>
 
 </body>
 </html>

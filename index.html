@@ -11,34 +11,92 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		 <!-- burning  man links -->
-		<link rel="stylesheet" type="text/css" href="index.css">
 		
+		<link rel="stylesheet" type="text/css" href="index.css">
+
 
 		<title>BURNING MAN</title>
 	</head>
 <body>
 
+<!-- Trigger/Open The Modal -->
 
-	<button type="button" onclick="JavaScript:alert('Burning Man the community explores various forms of artistic self-expression, created in celebration for the pleasure of all participants. Participation is a key precept for the community. Some of these generous outpourings of creativity can include experimental and interactive sculpture, building, performance, and art cars among other mediums, often inspired by the yearly theme, chosen by organizers. The event takes its name from its culmination, the symbolic ritual burning of a large wooden effigy THE MAN that traditionally occurs on the Saturday evening of the event.')">
+<div id="buttoncontainer">
+	<button id="myBtn">
+		<img src="https://s-media-cache-ak0.pinimg.com/originals/df/8d/d0/df8dd0226bf4a0f236fc4f144125e1a3.png" height= "55px"alt="Burning Man" />
+			<br />
+			ABOUT
+	</button>
 
-	<img src="https://s-media-cache-ak0.pinimg.com/originals/df/8d/d0/df8dd0226bf4a0f236fc4f144125e1a3.png" height= "55px", alt="Burning Man" />
-	<br />ABOUT</button>
+<!-- The Modal -->
+	<div id="myModal" class="modal">
 
-	<a href="https://www.aol.com/"><button>
-	<img src="https://s-media-cache-ak0.pinimg.com/originals/df/8d/d0/df8dd0226bf4a0f236fc4f144125e1a3.png" height= "55px", alt="Burning Man" />
-	<br />INSTALLATION ARTISTS</button></a>
+			  	<!-- Modal content -->
+		<div class="modal-content">
+			<span class="close">&times;</span>
+				<p><strong>Burning Man</strong> the community explores various forms of artistic self-expression, created in celebration for the pleasure of all participants. Participation is a key precept for the community. Some of these generous outpourings of creativity can include experimental and interactive sculpture, building, performance, and art cars among other mediums, often inspired by the yearly theme, chosen by organizers. The event takes its name from its culmination, the symbolic ritual burning of a large wooden effigy <strong>"THE MAN"</strong> that traditionally occurs on the Saturday evening of the event</p>
+		</div>
 
-	<a href="https://www.aol.com/"><button>
-	<img src="https://s-media-cache-ak0.pinimg.com/originals/df/8d/d0/df8dd0226bf4a0f236fc4f144125e1a3.png" height= "55px", alt="Burning Man" />
-	<br />GALLERY</button></a>
-
-	<h2 style="font-size: 4em; color: white; font-weight: thin;">Experience 'Burning Man'</h2>
-
-<footer>
-  <h6> About &nbsp|&nbsp Installation Artists &nbsp |&nbsp Gallery &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &copy; 2017</h6>
-</footer>
+			</div>
 
 
+			<a href="video.html">
+				<button>
+					<img src="https://s-media-cache-ak0.pinimg.com/originals/df/8d/d0/df8dd0226bf4a0f236fc4f144125e1a3.png" height= "55px", alt="Burning Man" />
+					<br />
+					VIDEO
+					</button>
+			</a>
+
+			<a href="burningmangallery.html">
+				<button>
+					<img src="https://s-media-cache-ak0.pinimg.com/originals/df/8d/d0/df8dd0226bf4a0f236fc4f144125e1a3.png" height= "55px", alt="Burning Man" />
+					<br />
+					GALLERY
+					</button>
+			</a>
+			</div>
+				
+
+			<h1 style="font-size: 4em; color: white; font-weight: thin;">Experience 'Burning Man'</h1>
+
+	
+				<script>
+				// Get the modal
+				var modal = document.getElementById('myModal');
+
+				// Get the button that opens the modal
+				var btn = document.getElementById("myBtn");
+
+				// Get the <span> element that closes the modal
+				var span = document.getElementsByClassName("close")[0];
+
+				// When the user clicks the button, open the modal 
+				btn.onclick = function() {
+				modal.style.display = "block";
+				}
+
+				// When the user clicks on <span> (x), close the modal
+				span.onclick = function() {
+				modal.style.display = "none";
+				}
+
+				// When the user clicks anywhere outside of the modal, close it
+				window.onclick = function(event) {
+				if (event.target == modal) {
+				modal.style.display = "none";
+				}
+					}
+					</script>
+
+	<div>
+		<iframe width="10" height="5" src="https://www.youtube.com/embed/4HfCna0IpeQ?autoplay=1" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+
+	<footer>
+	  <h6><a href="index.html">About</a> &nbsp|&nbsp <a href="video.html">Video</a> &nbsp |&nbsp <a href="burningmangallery.html">Gallery</a> &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &copy; 2017</h6>
+	</footer>
 
 </body>
 </html>

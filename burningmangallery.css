@@ -6,6 +6,25 @@ body {
   background-size: cover;
 }
 
+button{
+    margin-top: 200px;
+    color: #800000;
+    background-color: #FFFF00; 
+    border: solid 2px #FFFF00;
+    font-family: Impact;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    /*position: absolute;*/
+    /*z-index: 2000;*/
+}
+
+
+#buttoncontainer{
+    position: absolute;
+    z-index: 2000;
+}
+
+
 
 
 /* The Modal (background) */
@@ -48,37 +67,44 @@ body {
     cursor: pointer;
 }
 
+a{
+    text-decoration: none;
+}
+
 a:visited{
-  color: yellow;
+  color: #ffcc00;
+}
+
+a{
+  color: #fff;
+}
+
+
+/* hover and increase image size */
+figure img{
+  -webkit-transition: all 0.5s linear;
+          transition: all 0.5s linear;
+  -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+}
+
+figure:hover figcaption{
+ background: rgba(255,255,255,0.3);
+}
+
+figure:hover img{
+  -webkit-transform: scale3d(1.4, 1.4, 1);
+  transform: scale3d(1.4, 1.4, 1);
+  z-index: 1000;
 }
 
 
 
-
-button{
-	margin-top: 200px;
-	color: #800000;
-	background-color: #FFFF00; 
-	border: solid 2px #FFFF00;
-	font-family: Impact;
-	font-family: 'Quicksand', sans-serif;
-	font-weight: bold;
-}
-
-
-
-
-h1{
-    font-family: 'Gloria Hallelujah', cursive;
-    margin-left: 150px;
-    margin-top: 20px;
-}
 
 iframe {
     position: absolute;
     left: -9999
 }
-
 
 footer {
     padding: .005em;
@@ -89,6 +115,6 @@ footer {
     opacity: 0.5;
     font-family: Arial Narrow;
     letter-spacing: 1px;
-    position: inherit;
+    /*position: inherit;*/
     margin-top: 400px;
 }
