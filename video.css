@@ -1,0 +1,51 @@
+body {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/62/e7/72/62e7721e8988970fb1e1b1624fe154b5.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.vid {
+  height: 350px;
+  width: 350px;
+  float: right;
+  margin-left: 80px;
+  margin-top: 40px;
+
+}
+button {
+	margin-top: 90px;
+	color: #800000;
+	background-color: #FFFF00;
+	border: solid 2px #FFFF00;
+	font-family: Impact;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+}
+iframe {
+ height: 100%;
+ width: 100%;
+}
+
+h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  margin-left: 150px;
+  margin-top: 30px;
+  font-size: 58px;
+  text-align: left;
+  font-weight: 900;
+  color: white;
+}
+footer {
+    padding: .005em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+    opacity: 0.5;
+    font-family: Arial Narrow;
+    letter-spacing: 1px;
+    position: inherit;
+    margin-top: 400px;
+}
